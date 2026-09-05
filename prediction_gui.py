@@ -317,7 +317,7 @@ tweet_label.grid(
 )
 
 
-PLACEHOLDER_TEXT = "Type your tweet here..."
+PLACEHOLDER_TEXT = "Type your text here..."
 
 
 tweet_input = tk.Text(
