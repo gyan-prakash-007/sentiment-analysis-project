@@ -51,7 +51,12 @@ else:
 
 
 votes = [log_pred, nb_pred, svm_pred]
-average = sum(votes) / len(votes)
 
-final = "Positive" if average >= 0.5 else "Negative"
-print("Final Verdict:", final, f"({average:.2f} average score)")
+average = sum(votes) / 3
+
+if average >= 0.5:
+    final = "Positive"
+else:
+    final = "Negative"
+
+print("Final Verdict:", final, "(", round(average, 2), "average score)")
