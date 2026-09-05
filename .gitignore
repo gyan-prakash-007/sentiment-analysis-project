@@ -1,0 +1,3 @@
+venv/
+training.1600000.processed.noemoticon.csv
+.ipynb_checkpoints/
